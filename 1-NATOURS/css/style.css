@@ -7,10 +7,12 @@ Dark green: #28b485
 
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
@@ -24,6 +26,8 @@ body {
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+
+    box-sizing: border-box;
 }
 
 
@@ -38,14 +42,14 @@ body {
 }
 
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
@@ -57,7 +61,7 @@ body {
 }
 
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -68,7 +72,7 @@ body {
 }
 
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -78,7 +82,7 @@ body {
 }
 
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -109,13 +113,13 @@ body {
 }
 
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
 
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom .5s ease-out .65s;
     animation-fill-mode: backwards;
 }

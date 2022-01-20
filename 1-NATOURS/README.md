@@ -19,6 +19,8 @@
         <ul>
             <li>Details of the steps made by the browser, when a page is loaded</li>
             <li>How css is parsed, the Cascade and Specificity (order and importance of declarations)</li>
+            <li>CSS architecture</li>
+            <li>Block Element Modifier (BEM) as build method</li>
         </ul>
     </li>
 </ul>
