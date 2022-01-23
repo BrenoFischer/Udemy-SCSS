@@ -23,4 +23,13 @@
             <li>Block Element Modifier (BEM) as build method</li>
         </ul>
     </li>
+        <li>Section 3
+        <ul>
+            <li>Introduction to Sass</li>
+            <li>Variables and nesting</li>
+            <li>Mixins, functions and extensions</li>
+            <li>How to install Sass</li>
+            <li>Automatically sass compile and live-server</li>
+        </ul>
+    </li>
 </ul>
