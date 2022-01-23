@@ -32,4 +32,9 @@
             <li>Automatically sass compile and live-server</li>
         </ul>
     </li>
+        <li>Section 4
+        <ul>
+            <li>Implemention of 7 to 1 architecture</li>
+        </ul>
+    </li>
 </ul>
