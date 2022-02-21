@@ -26,6 +26,11 @@
         color: $color-gray-dark;
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
     &--animated {
         animation: moveInBottom .5s ease-out .65s;
         animation-fill-mode: backwards;
