@@ -44,17 +44,25 @@
         <ul>
             <li>How to make code more modular with Sass</li>
             <li>Build overlaping components, as hover by</li>
-            <li>Build feature box, grid style, with icon, h2 and paragraph</li>
             <li>Styling a section with skewY()</li>
-            <li>Style elements, except last child</li>
+            <li>Style elements, except for the last child</li>
             <li>Center block elements with margin: 0 auto;</li>
             <li>Create a flipping Card
                 <ul>
                     <li>Separate card front and card back, positioning on the same place with positioning absolute;, and hiding with backface-visibility: hidden;</li>
                     <li>Smooth animation with transform: rotateY(); and perspective</li>
-                    <li>Insert on heading of front image and linear gradient (background-blend-mode)</li>
+                    <li>Blending a front image and linear gradient colors (background-blend-mode)</li>
                     <li>Style the card heading manipulating span width (to break line) and linear gradient for background color</li>
                     <li>Fix the padding added on heading, after the manipulation above, with box-decoration-break.</li>
+                </ul>
+            </li>
+            <li>Add a shape to an element (circle shape), with shape-outside: circle(50% at 50% 50%); Note that the element must be floating, with float: ...; It also need dimensions (width and height)</li>
+            <li>The property above only determines that the element has the shape. To actually visually look like that shape, you need the clip-path property.</li>
+            <li>How to use CSS property "filter" ex: filter: blur(3px) brightness(80%);</li>
+            <li>How to add a background video
+                <ul>
+                    <li>Can obtain videos on coverr.co</li>
+                    <li>Add video on html with the tag video, inside the tag insert two source tags, one with mp4 type and one with webm type, each corresponding to the correct video path.</li>
                 </ul>
             </li>
         </ul>

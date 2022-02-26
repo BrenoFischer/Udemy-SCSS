@@ -30,6 +30,10 @@
     margin: 0 8rem;
 }
 
+.one-column {
+    grid-template-columns: 1fr;
+}
+
 .two-columns {
     grid-template-columns: 1fr 1fr;
 }
