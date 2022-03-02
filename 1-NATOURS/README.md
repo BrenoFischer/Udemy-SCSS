@@ -65,6 +65,9 @@
                     <li>Add video on html with the tag video, inside the tag insert two source tags, one with mp4 type and one with webm type, each corresponding to the correct video path.</li>
                 </ul>
             </li>
+            <li>Style when input is invalid with input:focus:invalid</li>
+            <li>Effect to move the text inside the input to the bottom of the input box, when input is focused</li>
+            <li>Use + and ~ to select sibblings elements</li>
         </ul>
     </li>
 </ul>
