@@ -68,6 +68,8 @@
             <li>Style when input is invalid with input:focus:invalid</li>
             <li>Effect to move the text inside the input to the bottom of the input box, when input is focused</li>
             <li>Use + and ~ to select sibblings elements</li>
+            <li>fixed button for the page navigation</li>
+            <li>Checkbox trick to trigger another element when checkbox btn is checked. With &__checkbox:checked ~ &__background. This will style the &__background when btn is checked.</li>
         </ul>
     </li>
 </ul>
