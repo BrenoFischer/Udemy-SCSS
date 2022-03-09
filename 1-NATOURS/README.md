@@ -1,9 +1,37 @@
 # Natours Project
 
+![Natours preview](/readme_media/natours_preview.gif)
+
 ## Introduction
-<p></p>
+<p>This is the first project from the course. It introducts SASS, basic + advanced css styling, CSS architecture and much more. In the section "What was learned" there are annotations on the topics learned.</p>
 
 ## Images and Gifs
+
+### Navigation
+![Navigation gif](/readme_media/navigation.gif)
+
+### Header
+![Header image](/readme_media/header.png)
+
+### Section About
+![About gif](/readme_media/about.gif)
+
+### Section Features
+![Features image](/readme_media/features.png)
+
+### Section Tours
+![Tours gif](/readme_media/tours.gif)
+
+### Section Stories
+![Stories gif](/readme_media/stories.gif)
+
+### Section Book
+![Book image](/readme_media/book.png)
+
+### Footer
+![Footer image](/readme_media/footer.png)
+
+
 
 ## What was learned
 <ul>
@@ -71,7 +99,7 @@
             <li>fixed button for the page navigation</li>
             <li>Checkbox trick to trigger another element when checkbox btn is checked. With &__checkbox:checked ~ &__background. This will style the &__background when btn is checked.</li>
             <li>Use column-count: 2; to divide the text into two columns</li>
-            <li>Use id to target an element when hit and anchor button. Ex: <div id="popup"> will be target when <a href="#popup">. It can be styled with #popup:target.</li>
+            <li>Use id to target an element when hit and anchor button. Ex: < div id="popup"> will be target when < a href="#popup">. It can be styled with #popup:target.</li>
         </ul>
     </li>
 </ul>
