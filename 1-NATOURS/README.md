@@ -70,6 +70,8 @@
             <li>Use + and ~ to select sibblings elements</li>
             <li>fixed button for the page navigation</li>
             <li>Checkbox trick to trigger another element when checkbox btn is checked. With &__checkbox:checked ~ &__background. This will style the &__background when btn is checked.</li>
+            <li>Use column-count: 2; to divide the text into two columns</li>
+            <li>Use id to target an element when hit and anchor button. Ex: <div id="popup"> will be target when <a href="#popup">. It can be styled with #popup:target.</li>
         </ul>
     </li>
 </ul>
