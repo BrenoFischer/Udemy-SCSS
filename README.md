@@ -7,7 +7,7 @@ This repository contains projects presented on ["Advanced CSS and Sass: Flexbox,
 Bellow are listed the preview of the projects made. For more details, open the folders to visualize the specific project's readme.
 
 ### 1.1. Natours
-![Natours preview](.\readme_media\natours_preview.gif)
+![Natours preview](/readme_media/natours_preview.gif)
 
 ### 1.2. Natours advanced responsive design
 
