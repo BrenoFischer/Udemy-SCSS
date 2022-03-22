@@ -38,12 +38,32 @@
 
 .two-columns {
     grid-template-columns: 1fr 1fr;
+
+    @include respond(phone) {
+        grid-template-columns: 1fr !important;
+    }
 }
 
 .three-columns {
     grid-template-columns: 1fr 1fr 1fr;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    @include respond(phone) {
+        grid-template-columns: 1fr !important;
+    }
 }
 
 .four-columns {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    @include respond(phone) {
+        grid-template-columns: 1fr !important;
+    }
 }

@@ -4,6 +4,10 @@
     font-size: 1.4rem;
     color: $color-grey-light-1;
 
+    @include respond(phone) {
+        padding: 8rem 0;
+    }
+
     &__logo-box {
         text-align: center;
         margin-bottom: 8rem;
@@ -19,6 +23,13 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block;
+
+        @include respond(phone) {
+            margin: 0;
+            padding-top: 0;
+            text-align: center;
+        }
+    
     }
 
     &__list {
@@ -56,5 +67,11 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         width: 80%;
+
+        @include respond(phone) {
+            margin-top: 2rem;
+            padding-top: 0;
+            text-align: center;
+        }
     }
 }
